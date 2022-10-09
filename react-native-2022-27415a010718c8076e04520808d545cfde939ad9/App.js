@@ -5,11 +5,11 @@ import ComponentsScreen from './src/screens/ComponentsScreen';
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
-    Components : ComponentsScreen
+    Home: HomeScreen
+   
   },
   {
-    initialRouteName: "Components",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },
